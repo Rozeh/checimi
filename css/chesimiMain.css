@@ -3,60 +3,49 @@
 }
 
 .container{
-    width: 400px;
     margin: 0 auto;
-    border: 1px solid brown;
-    border-radius: 10px;
 }
 header{
     position: fixed;
-    padding: 1rem;
+    top:10px;
     height: 1.5rem;
     font-size: 1.5rem;
+    width: 100%;
+    display: flex;
 }
-
-.searchMain{
-    display: table-row;
-    background-color: tomato;
-}  
 
 .searchIcon {
     display: table-cell;
-    background: tomato;
 }
 
-.searchMain input{ 
-    font-size: 1.5rem;
-    background: #e1e1e1;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    width:280px;
-    display: table-cell;
-}
-.cameraWrapper {
-    display: inline;
-    display: table-cell;
-}
 
 main{
-    margin-top: 3rem;
+    margin-top: 3.5rem;
     min-height: 400px;
     padding : 0.2rem 0 20px 1rem;
 }
 
-footer{
-    border-top: 1px solid grey;
+.camera{
+    font-size: 3rem;
+    padding-left: 1%;
+}
 
+footer{
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    border-top: 1px solid grey;
 }
 
 footer div{
     padding: 6px;
 }
 
-footer div ul{
+footer ul{
     display: flex;
     padding: 0px;
-    
+
 }
 
 footer li{
@@ -65,4 +54,66 @@ footer li{
     flex-grow: 1;
     text-align: center;
     font-size: 1.8rem;
+    border-left: 1px solid black;
+}
+.box {
+    width: 100%;
+}
+.container-3{
+    width: 98%;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+  }
+   
+  .container-3 input#search{
+    width: 100%;
+    height: 50px;
+    background: #eeeeee;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #262626;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: black;
+    font-size: 1.5rem;
+    border: 2px solid #ccc;
+  }
+
+  .container-3 input#search::-webkit-input-placeholder {
+    color: #cccccc;
+ }
+  
+ .container-3 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #cccccc;  
+ }
+  
+ .container-3 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #cccccc;  
+ }
+  
+ .container-3 input#search:-ms-input-placeholder {  
+    color: #cccccc;  
+ }
+
+ .container-3 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 8px;
+    margin-top: 13px;
+    z-index: 1;
+    color: #4f5b66;
+
+
+    -webkit-transition: all .55s ease;
+    -moz-transition: all .55s ease;
+    -ms-transition: all .55s ease;
+    -o-transition: all .55s ease;
+    transition: all .55s ease;
+  }
+.cameraWrapper{
+    padding-right: 0.8%;
 }

@@ -35,6 +35,12 @@
       "css": "lemon",
       "code": 59396,
       "src": "fontawesome"
+    },
+    {
+      "uid": "9bf7e14698cccdca37a6f1a02cf7d79e",
+      "css": "female",
+      "code": 61826,
+      "src": "fontawesome"
     }
   ]
 }
