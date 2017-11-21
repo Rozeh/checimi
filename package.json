@@ -1,0 +1,22 @@
+{
+  "name": "checimi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rozeh/checimi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rozeh/checimi/issues"
+  },
+  "homepage": "https://github.com/Rozeh/checimi#readme",
+  "dependencies": {
+    "jquery-mobile": "^1.5.0-alpha.1"
+  }
+}
